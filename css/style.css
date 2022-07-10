@@ -237,7 +237,7 @@ a {
   justify-content: center;
   display: flex;
   flex-direction: row-reverse;
-  align-self: flex-end
+  align-self: center
 }
 
 .portfolioimg {
@@ -256,7 +256,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 50rem;
+  height: 40rem;
 
 
 }
@@ -590,7 +590,7 @@ h3 {
     align-self: center;
   }
   #section3 {
-    height: 110rem;
+    height: 50rem;
   }
   #section4{
     height: 130rem;
@@ -679,5 +679,11 @@ h3 {
 @media screen and (max-width:400px){
   #websiteprofilepicture{
     width: 300px;
+  }
+  .websiteportfolio{
+    height: 25rem;
+  }
+  #section3{
+    height: 40rem;
   }
 }
