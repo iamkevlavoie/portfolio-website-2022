@@ -232,8 +232,11 @@ a {
 }
 
 .websitebutton {
-  background: #FFFFFF;
-  border-radius: 6.188rem;
+  /* background: #FFFFFF;
+  border-radius: 6.188rem; */
+  color: white;
+  font-size: 1.2rem;
+  text-decoration:underline;
   width: 8.563rem;
   height: 3rem;
   align-items: center;
@@ -659,7 +662,7 @@ h3 {
   }
   #contactme{
     flex-direction: column;
-    width: 90%;
+    width: 70%;
     justify-content: space-around;
     align-items: center;
     height: 45rem;
@@ -709,7 +712,9 @@ h3 {
   .languagesicons{
     margin-bottom: 3rem;
   }
-  
+  #contactme{
+    width: 90%;
+  }
 }
 
 
