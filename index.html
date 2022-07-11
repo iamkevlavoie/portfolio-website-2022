@@ -22,7 +22,7 @@
         <div class="container">
             <div class="subcontainer">
                 <nav class="navbar">
-                    <a class="companyname" href="#companyname">Kevin <br> Lavoie</a>
+                    <a class="companyname" >Kevin Lavoie</a>
                     <ul class="social-menu">
 
                         <li class="social-item">
@@ -61,11 +61,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#section4">ABOUT ME</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#section5">CONTACT</a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a id="hiremebutton" class="nav-link" href="#section5">HIRE ME</a>
+                            <a id="hiremebutton" class="nav-link" href="#section5">REACH ME</a>
                         </li>
                         
                     </ul>
@@ -130,7 +130,7 @@
             
             <section class="websiteportfolio">                
                 <div class="websitebutton">Projects</div>
-                <div class=portfolioimg style='position:relative; padding-bottom:calc(54.17% + 44px)'><iframe src='https://gfycat.com/ifr/LimpingFarGelding' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+                <iframe class="portfolioimg" src='https://gfycat.com/ifr/LimpingFarGelding' ></iframe>
                 
 
             </section>
@@ -175,12 +175,12 @@
                 <div id="formform">
                     <h3>Contact me</h3>
                     <form action="https://formspree.io/f/mzboqogb" method="post">
-                        <input class="form" type="text" placeholder="First Name" name="firstname">
-                        <input class="form formright" type="text" placeholder="Last Name" name="lastname"><br>
-                        <input class="form" type="text" placeholder="Phone Number" name="phonenumber">
-                        <input class="form formright" type="text" placeholder="Email" name="email"><br>
+                        <input class="form" type="text" placeholder="First Name" name="firstname" required>
+                        <input class="form formright" type="text" placeholder="Last Name" name="lastname" required><br>
+                        <input class="form" type="text" placeholder="Phone Number" name="phonenumber" required>
+                        <input class="form formright" type="text" placeholder="Email" name="email" required><br>
                         <textarea name="message" class="formtext formright" name="" id="" cols="57.5" rows="5"
-                            placeholder="Message"></textarea><br>
+                            placeholder="Message" minlength="20" required></textarea><br>
                         <button class="submitbutton" type="submit">Submit</button>
 
 
